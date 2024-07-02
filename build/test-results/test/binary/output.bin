@@ -1,0 +1,5 @@
+~Transaction{type='null', date='null', accountNumber=1, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+~Transaction{type='null', date='null', accountNumber=2, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+~Transaction{type='null', date='null', accountNumber=3, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+~Transaction{type='null', date='null', accountNumber=4, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+~Transaction{type='null', date='null', accountNumber=5, currency='null', ammount=0, merchantName='null', merchantLogo='null'}

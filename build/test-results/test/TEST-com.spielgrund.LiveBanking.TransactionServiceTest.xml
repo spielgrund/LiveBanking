@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spielgrund.LiveBanking.TransactionServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-02T15:04:46" hostname="DESKTOP-EPJAG3E" time="0.033">
+  <properties/>
+  <testcase name="testfindAllByAccountNumber()" classname="com.spielgrund.LiveBanking.TransactionServiceTest" time="0.033"/>
+  <system-out><![CDATA[Transaction{type='null', date='null', accountNumber=1, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+Transaction{type='null', date='null', accountNumber=2, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+Transaction{type='null', date='null', accountNumber=3, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+Transaction{type='null', date='null', accountNumber=4, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+Transaction{type='null', date='null', accountNumber=5, currency='null', ammount=0, merchantName='null', merchantLogo='null'}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
