@@ -10,11 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/transactions")
 public class TransactionController {
 
-    @Autowired
-    private TransactionService transactionService;
+    private final TransactionService transactionService;
+
+    public TransactionController(final TransactionService transactionService) {
+        this.transactionService = transactionService;
+    }
 
     @GetMapping("/{accountNumber}")
-    public Transaction getTransaction(@PathVariable int accountNumber){
+    public Transaction getTransaction(@PathVariable("accountNumber") final Integer accountNumber){
         return TransactionService.getOneTransactions(accountNumber);
     }
 }
